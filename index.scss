@@ -430,3 +430,29 @@ body {
     }
 }
 
+.radiy {
+    position: absolute;
+    background: white;
+    color: #1D1D1D;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem 4rem;
+    align-items: center;
+    right: 580px;
+    top: 2500px;
+    z-index: 1000;
+
+    &text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    p {
+        font-size: 120px;
+        font-weight: 600;
+    }
+}

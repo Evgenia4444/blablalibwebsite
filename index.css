@@ -260,7 +260,7 @@ body {
   width: 243px;
   height: 240px;
   cursor: pointer;
-  background-image: url("/images/candlessprite.png");
+  background-image: url("https://github.com/Evgenia4444/blablalibwebsite/blob/main/images/candlessprite.png");
   -webkit-transition: background-image 0.6s;
   transition: background-image 0.6s;
 }
@@ -426,7 +426,7 @@ body {
   overflow: hidden;
   width: 180px;
   height: 282px;
-  background-image: url("/images/flasksprite.png");
+  background-image: url("https://github.com/Evgenia4444/blablalibwebsite/blob/main/images/flasksprite.png");
   -webkit-transition: background-image 0.6s;
   transition: background-image 0.6s;
 }
@@ -501,5 +501,46 @@ body {
   .books {
     top: 1200px;
   }
+}
+
+.radiy {
+  position: absolute;
+  background: white;
+  color: #1D1D1D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  padding: 2rem 4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 580px;
+  top: 2500px;
+  z-index: 1000;
+}
+
+.radiytext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.radiy p {
+  font-size: 120px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=index.css.map */
