@@ -1,0 +1,38 @@
+.book_2_2_1 {
+  position: absolute;
+  left: -117px;
+  top: 140px;
+}
+
+.book_4_1_4 {
+  position: absolute;
+  left: -117px;
+  top: 140px;
+}
+
+.skullbooks {
+  position: absolute;
+  left: 200px;
+  top: 1460px;
+  z-index: 120;
+}
+
+@media screen and (max-width: 380px) {
+  .skullbooks {
+    top: 1700px;
+  }
+}
+
+.skull {
+  position: absolute;
+  left: 320px;
+  top: 1240px;
+  z-index: 200;
+}
+
+@media screen and (max-width: 380px) {
+  .skull {
+    top: 2020px;
+  }
+}
+/*# sourceMappingURL=bookslayout.css.map */
