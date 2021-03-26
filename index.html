@@ -109,8 +109,14 @@ $(function() {
        $('body').css({
            'cursor': 'default'
        });
-       $('radiy').css({
+       $('.radiy').css({
            'opacity':'1'
+       })
+   });
+
+   $('.close').click(function() {
+    $('.radiy').css({
+           'opacity':'0'
        })
    })
 });
@@ -261,7 +267,7 @@ $(document).ready(function() {
            <img src="./images/5-3-2.svg" alt="">        
            <img src="./images/5-3-3.svg" alt="">   
            <div class="radiy">
-               <img src="images/close.png" alt="">
+               <img src="images/close.png" alt="" class="close">
                <div class="radiytext">
                     <h1>Поздравляю!</h1>
                     <h1>Вы открыли радий.</h1>
