@@ -440,8 +440,13 @@ body {
     padding: 2rem 4rem;
     align-items: center;
     right: 580px;
-    top: 2500px;
+    top: 2450px;
     z-index: 1000;
+
+    img {
+        
+       justify-self: flex-end;
+    }
 
     &text {
         display: flex;

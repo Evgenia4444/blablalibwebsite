@@ -520,8 +520,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   right: 580px;
-  top: 2500px;
+  top: 2450px;
   z-index: 1000;
+}
+
+.radiy img {
+  justify-self: flex-end;
 }
 
 .radiytext {
