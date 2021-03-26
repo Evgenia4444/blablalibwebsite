@@ -521,11 +521,13 @@ body {
           align-items: center;
   right: 580px;
   top: 2450px;
+  opacity: 0;
   z-index: 1000;
 }
 
 .radiy img {
-  justify-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .radiytext {

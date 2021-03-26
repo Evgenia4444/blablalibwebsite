@@ -441,11 +441,12 @@ body {
     align-items: center;
     right: 580px;
     top: 2450px;
+    opacity: 0;
     z-index: 1000;
 
     img {
+        align-self: flex-end;
         
-       justify-self: flex-end;
     }
 
     &text {
