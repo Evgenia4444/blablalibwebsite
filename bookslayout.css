@@ -96,19 +96,35 @@
     width: 21.5%;
   }
   .book_row_part .book_4_1_1 {
-    width: 29.5%;
+    width: 67px;
+    height: 360px;
+    position: absolute;
+    top: 2494px;
+    left: 196px;
   }
   .book_row_part .edison {
-    width: 21.5%;
+    width: 18%;
+    position: absolute;
+    top: 2460px;
+    left: 280px;
   }
   .book_row_part .book_4_1_3 {
-    width: 45%;
+    width: 35%;
+    position: absolute;
+    top: 2540x;
+    left: 0px;
   }
   .book_row_part .mary {
-    width: 45%;
+    width: 35%;
+    position: absolute;
+    top: 2560px;
+    left: 69px;
   }
   .book_row_part .books {
     width: 64%;
+    height: 120px;
+    top: 140px;
+    left: 6px;
   }
   .book_row_part .book_5_1_1 {
     width: 21.5%;
@@ -169,10 +185,6 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .mary {
-    top: 3020px;
-    left: 300px;
-  }
   .name {
     width: 100%;
     padding: 2rem 3rem;
@@ -187,14 +199,14 @@
     left: 174px;
     width: 35%;
   }
+  .lightbulbdiv {
+    position: absolute;
+    height: 200px;
+    top: 2350px;
+  }
   .lightbulb {
     height: 40%;
     left: 100px;
-  }
-  .books {
-    height: 120px;
-    top: 140px;
-    left: 6px;
   }
   .book_4_1_1 {
     position: absolute;
@@ -202,7 +214,7 @@
   }
   .edison {
     position: absolute;
-    width: 64%;
+    width: 24%;
   }
   .candlessprite {
     background-image: url("images/candlesspritemobile.png");
