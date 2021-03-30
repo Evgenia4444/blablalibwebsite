@@ -165,5 +165,13 @@
     top: 140px;
     left: 6px;
   }
+  .book_4_1_1 {
+    position: absolute;
+    width: 64%;
+  }
+  .edison {
+    position: absolute;
+    width: 64%;
+  }
 }
 /*# sourceMappingURL=bookslayout.css.map */
