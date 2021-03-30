@@ -96,13 +96,13 @@
   .book_row_part .book_4_1_1 {
     width: 23.5%;
     position: absolute;
-    top: 1964px;
+    top: 2005px;
     left: 212px;
   }
   .book_row_part .edison {
     width: 17%;
     position: absolute;
-    top: 1966px;
+    top: 2007px;
     left: 300px;
   }
   .book_row_part .book_4_1_3 {
@@ -114,13 +114,13 @@
   .book_row_part .mary {
     width: 36%;
     position: absolute;
-    top: 2043px;
+    top: 2084px;
     left: 73.1px;
   }
   .book_row_part .books {
     width: 64%;
     height: 120px;
-    top: 140px;
+    top: 180px;
     left: 6px;
   }
   .book_row_part .book_5_1_1 {
@@ -166,15 +166,14 @@
     width: 80%;
   }
   .row_4 {
-    height: 660px;
+    height: 740px;
   }
   .row_4_1 {
     margin-top: 1rem;
     height: 1800px;
   }
   .row_4_3 {
-    margin-top: 1rem;
-    height: 1600px;
+    height: 1400px;
   }
   .row_5_1 {
     height: 900px;
