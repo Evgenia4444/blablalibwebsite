@@ -1,35 +1,185 @@
 .book_2_2_1 {
     position: absolute;
-    left: -117px;
-    top: 140px;
+    left: -123px;
+    top: 117px;
    
 }
 
-.book_4_1_4 {
-    position: absolute;
-    left: -117px;
-    top: 140px;
-   
-}
+
+
+
+
+
 
 .skullbooks {
-    position: absolute;
-    left: 200px;
-    top: 1460px;
-    z-index: 120;
+    display: flex;
+    flex-direction: column;
+    height: 266px;
 
-    @media screen and (max-width: 380px) {
-        top: 1700px;
+    .skull {
+        position: absolute;
+        top: 1256px;
+        left: 360px;
     }
 }
 
-.skull {
-        position: absolute;
-        left: 320px;
-        top: 1240px;
-        z-index: 200;
 
-        @media screen and (max-width: 380px) {
-            top: 2020px
+
+@media screen and (max-width: 375px) {
+    .bookshelf_container {
+        width: 100%;
+    }
+
+
+    .book_row {
+        flex-direction: column;
+        border: none;
+        height: 700px;
+        width: 100%;
+        
+
+        &_part {
+            width: 100%;
+            border-bottom: 20px solid #fff;
+            padding-bottom: 0;
+            margin-bottom: 3rem;
+            margin-top: 2rem;
+            justify-content: flex-end;
+            height: 480px;
+
+            
+
+           .img {
+               width: 16%;
+           }
+            .ferenc {
+               width: 24%;
+            }
+
+            .salvador {
+                width: 16%;
+            }
+           
+            .book_1_1_5 {
+                width: 32%;
+            }
+            .candlesbooks {
+                width: 50%;
+            }
+
+            .book_2_1_1 {
+                width: 22%;
+            }
+            .easel {
+                width: 75%;
+            }
+
+            .row_2_2 {
+                padding-left: 100px;
+                justify-content: flex-end;
+            }
+            
+            .book_2_2_1 {
+                top: 140px;
+                left: 12px;
+                width: 32%;
+            }
+            .book_2_2_2 {
+                width: 32%;
+            }
+            .skull_books {
+                width: 90%;
+            }
+
+            .julesverne {
+               width: 16%;
+            }
+
+            .book_3_3_1 {
+                width: 37%;
+            }
+
+            .book_3_3_4 {
+                width: 21.5%;
+            }
+
+            .book_4_1_1 {
+                width: 29.5%;
+            }
+            .edison {
+                width: 21.5%;
+            }
+            .mary {
+                width: 30%;
+            }
         }
+    }
+
+    .row_4_1 {
+          height: 700px;      
+    }
+
+    .row_5_1 {
+        height: 1200px;
+    }
+
+    .row_2_1 {
+        height: 700px;
+    }
+  .row_1_2 {
+      align-items: flex-end;
+      justify-content: flex-end;
+  }
+    .mary {
+        top: 3020px;
+        left: 198px;
+    }
+    
+
+    .books {
+        width: 30%;
+        top: 1200px;
+    }
+
+    .name {
+        width: 100%;
+        padding: 2rem 3rem;
+        margin-top: 11rem;
+        
+    }
+
+    .skullbooks {
+        top: 1240px;
+        height: 135px;
+
+
+        .skull {
+            top: 1750px;
+            left: 174px;
+            width: 35%;
+        }      
+    }
+    .book_3_3_1 {
+        width: 40%;
+    }
+    
+    .book_3_3_4 {
+        width: 60%;
+    }
+
+    .book_4_1_1 {
+        width: 30%;
+    }
+
+    .lightbulbdiv {
+        height: 40%;
+    }
+    //Mary
+    .books {
+       left: 250px;
+    }
+
+    .flasksprite {
+       
+    }
 }

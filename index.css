@@ -87,7 +87,8 @@ body {
 }
 
 .row_4_1 {
-  margin-left: 0;
+  padding-right: 100px;
+  margin-right: 0;
 }
 
 .row_4_2 {
@@ -105,8 +106,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 160px;
-  padding: 0 3rem 1rem;
+  padding: 1rem 3rem;
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 2rem;
@@ -119,15 +119,14 @@ body {
 /* Animations */
 /* FERENC ANIMATION */
 .ferenc {
-  overflow: hidden;
-  border-radius: 34px 32px 0 0;
-  -webkit-box-shadow: 3px 19px 30px #77C3A9;
-          box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
-  -webkit-transition: -webkit-box-shadow 0.6s;
-  transition: -webkit-box-shadow 0.6s;
-  transition: box-shadow 0.6s;
-  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.ferenc:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .music {
@@ -150,6 +149,11 @@ body {
   cursor: pointer;
   top: 60%;
   left: 12%;
+}
+
+.note1:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
 }
 
 .note1img {
@@ -190,6 +194,11 @@ body {
   left: 180px;
 }
 
+.note2:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%);
+}
+
 .note2img {
   -webkit-animation: note2 0.5s steps(2) infinite;
           animation: note2 0.5s steps(2) infinite;
@@ -226,6 +235,11 @@ body {
   cursor: pointer;
   top: 240px;
   left: 200px;
+}
+
+.note3:hover {
+  -webkit-filter: brightness(94%);
+          filter: brightness(94%);
 }
 
 .note3img {
@@ -271,25 +285,27 @@ body {
 
 /* Salvador Animation */
 .salvador {
-  overflow: hidden;
-  border-radius: 28px 28px 0 0;
-  -webkit-box-shadow: 3px 19px 30px #77C3A9;
-          box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
-  -webkit-transition: -webkit-box-shadow 0.6s;
-  transition: -webkit-box-shadow 0.6s;
-  transition: box-shadow 0.6s;
-  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.salvador:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 /* Jules Verne Animation */
 .row_4_3 {
   position: relative;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .row_4_3 .books {
   position: absolute;
-  top: 180px;
+  top: 203px;
   right: 230px;
 }
 
@@ -338,31 +354,30 @@ body {
 
 .julesverne {
   overflow: hidden;
-  border-radius: 28px 28px 0 0;
-  -webkit-box-shadow: 3px 19px 30px #77C3A9;
-          box-shadow: 3px 19px 30px #77C3A9;
   cursor: pointer;
   z-index: 500;
-  -webkit-transition: -webkit-box-shadow 0.6s;
-  transition: -webkit-box-shadow 0.6s;
-  transition: box-shadow 0.6s;
-  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.julesverne:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 /* Edison Animation */
 .edison {
-  overflow: hidden;
-  border-radius: 32px 32px 0 0;
-  -webkit-box-shadow: 3px 19px 30px #E24236;
-          box-shadow: 3px 19px 30px #E24236;
   cursor: pointer;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   z-index: 20;
-  -webkit-transition: -webkit-box-shadow 0.6s;
-  transition: -webkit-box-shadow 0.6s;
-  transition: box-shadow 0.6s;
-  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.edison:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .lightbulbdiv {
@@ -407,15 +422,13 @@ body {
 
 .mary {
   cursor: pointer;
-  position: absolute;
-  left: 363px;
-  top: 2000px;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  -webkit-transition: -webkit-box-shadow 0.6s;
-  transition: -webkit-box-shadow 0.6s;
-  transition: box-shadow 0.6s;
-  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  -webkit-transition: all 0.6s;
+  transition: all 0.6s;
+}
+
+.mary:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .cursormary {
@@ -473,36 +486,6 @@ body {
 #clock path:nth-child(8) {
 
 } */
-@media screen and (max-width: 380px) {
-  .book_row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border: none;
-    height: 840px;
-  }
-  .book_row_part {
-    border-bottom: 20px solid #fff;
-    margin-bottom: 2rem;
-  }
-  .row_1_2 {
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .mary {
-    top: 3020px;
-    left: 198px;
-  }
-  .books {
-    top: 1200px;
-  }
-}
-
 .radiy {
   position: absolute;
   background: white;
