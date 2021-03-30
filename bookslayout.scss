@@ -64,7 +64,7 @@
                 width: 32%;
             }
             .candlesbooks {
-                width: 50%;
+                width: 65%;
             }
 
             .book_2_1_1 {
@@ -208,5 +208,16 @@
     .edison {
         position: absolute;
         width: 64%;
+    }
+
+    .candlessprite {
+        background-image: url("images/candlesspritemobile.png");
+        overflow: hidden;
+        width: 121px;
+        height: 100px;
+    }
+
+    .flaskspriteimg {
+        background-position: -30% 0;
     }
 }
