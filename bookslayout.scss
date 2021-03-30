@@ -106,12 +106,43 @@
             .book_4_1_1 {
                 width: 29.5%;
             }
+
+           
             .edison {
                 width: 21.5%;
             }
-            .mary {
-                width: 30%;
+
+            .book_4_1_3 {
+                width: 45%;
             }
+
+            .mary {
+                width: 45%;
+            }
+
+            .books {
+                width: 64%;
+            }
+
+            .book_5_1_1 {
+                width: 21.5%;
+            }
+
+            .book_5_1_4 {
+                width: 50%;
+            }
+
+            .book_5_3_1 {
+                width: 16%;
+            }
+            .book_5_3_2 {
+                width: 16%;
+            }
+            .book_5_3_3 {
+                width: 21.5%;
+            }
+
+            
         }
     }
 
@@ -132,14 +163,11 @@
   }
     .mary {
         top: 3020px;
-        left: 198px;
+        left: 300px;
     }
     
 
-    .books {
-        width: 30%;
-        top: 1200px;
-    }
+   
 
     .name {
         width: 100%;
@@ -159,24 +187,16 @@
             width: 35%;
         }      
     }
-    .book_3_3_1 {
-        width: 40%;
-    }
-    
-    .book_3_3_4 {
-        width: 60%;
-    }
-
-    .book_4_1_1 {
-        width: 30%;
-    }
+  
 
     .lightbulbdiv {
         height: 40%;
     }
     //Mary
     .books {
-       left: 250px;
+        height: 120px;
+        top: 140px;
+       left: 6px;
     }
 
     .flasksprite {
