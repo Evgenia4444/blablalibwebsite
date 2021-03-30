@@ -51,8 +51,15 @@
   .book_row_part .ferenc {
     width: 24%;
   }
+  .book_row_part .music {
+    width: 300px;
+    height: 100px;
+  }
   .book_row_part .salvador {
     width: 16%;
+  }
+  .book_row_part .clock {
+    width: 60%;
   }
   .book_row_part .book_1_1_5 {
     width: 32%;
