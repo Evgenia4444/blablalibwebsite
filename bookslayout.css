@@ -51,10 +51,6 @@
   .book_row_part .ferenc {
     width: 24%;
   }
-  .book_row_part .music {
-    width: 300px;
-    height: 100px;
-  }
   .book_row_part .salvador {
     width: 16%;
   }
@@ -129,6 +125,33 @@
   .book_row_part .book_5_3_3 {
     width: 21.5%;
   }
+  .music {
+    width: 60%;
+    top: 100px;
+    opacity: 1;
+  }
+  .music .note1 {
+    width: 80px;
+    height: 80px;
+  }
+  .music .note1 img {
+    width: 80%;
+  }
+  .music .note2 {
+    width: 67px;
+    height: 89px;
+  }
+  .music .note2 img {
+    width: 80%;
+  }
+  .music .note3 {
+    width: 80px;
+    height: 60px;
+    left: 150px;
+  }
+  .music .note3 img {
+    width: 80%;
+  }
   .row_4_1 {
     height: 700px;
   }
@@ -164,8 +187,9 @@
     left: 174px;
     width: 35%;
   }
-  .lightbulbdiv {
+  .lightbulb {
     height: 40%;
+    left: 100px;
   }
   .books {
     height: 120px;
@@ -186,8 +210,8 @@
     width: 121px;
     height: 100px;
   }
-  .flaskspriteimg {
-    background-position: -97% 0;
+  .flasksprite {
+    background-size: -40%;
   }
 }
 /*# sourceMappingURL=bookslayout.css.map */

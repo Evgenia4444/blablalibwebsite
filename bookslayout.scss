@@ -56,10 +56,7 @@
                width: 24%;
             }
 
-            .music {
-                width: 300px;
-                height: 100px;
-            }
+            
             .salvador {
                 width: 16%;
             }
@@ -154,6 +151,41 @@
         }
     }
 
+    .music {
+        width: 60%;
+        top: 100px;
+        opacity: 1;
+
+        .note1 {
+            width: 80px;
+            height: 80px;
+
+            img {
+               width: 80%;
+            }
+           
+        }
+
+        .note2 {
+            width: 67px;
+            height: 89px;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        .note3 {
+            width:  80px;
+            height: 60px;
+            left: 150px;
+
+            img {
+                width: 80%;
+            }
+        }
+
+    }
     .row_4_1 {
           height: 700px;      
     }
@@ -197,9 +229,11 @@
     }
   
 
-    .lightbulbdiv {
+    .lightbulb {
         height: 40%;
+        left: 100px;
     }
+
     //Mary
     .books {
         height: 120px;
@@ -225,7 +259,7 @@
         height: 100px;
     }
 
-    .flaskspriteimg {
-        background-position: -97% 0;
+    .flasksprite {
+        background-size: -40%;
     }
 }
