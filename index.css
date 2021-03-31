@@ -118,6 +118,11 @@ body {
 
 /* Animations */
 /* FERENC ANIMATION */
+.brightness {
+  -webkit-filter: brightness(94%);
+          filter: brightness(94%);
+}
+
 .ferenc {
   cursor: pointer;
   -webkit-transition: all 0.6s;
@@ -237,11 +242,6 @@ body {
   left: 200px;
 }
 
-.note3:hover {
-  -webkit-filter: brightness(94%);
-          filter: brightness(94%);
-}
-
 .note3img {
   -webkit-animation: note2 0.5s steps(2) infinite;
           animation: note2 0.5s steps(2) infinite;
@@ -347,7 +347,7 @@ body {
 
 .submarine {
   position: absolute;
-  top: -300px;
+  top: -340px;
   right: -100px;
   z-index: 600;
 }
@@ -498,7 +498,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  padding: 2rem 4rem;
+  padding: 2rem 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -517,7 +517,8 @@ body {
   padding: 0.5rem;
 }
 
-.radiytext {
+.radiy_text {
+  padding: 1rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -529,11 +530,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 0.6rem;
 }
 
 .radiy p {
   font-size: 120px;
   font-weight: 600;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=index.css.map */

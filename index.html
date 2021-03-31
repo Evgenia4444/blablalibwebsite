@@ -28,9 +28,7 @@
             $('.music').css({
                 'opacity': '1'
                 });
-                $('.ferenc').css({
-                    'box-shadow':'unset'
-                })
+                $('.ferenc').removeClass('brightness')
             });
             });
 
@@ -58,9 +56,7 @@
         $(function() {
     $('.salvador').click(function() {
     $('.clock').css('opacity', '1');
-    $('.salvador').css({
-                    'filter':'brightness(100%)'
-                }) 
+    $('.salvador').removeClass('brightness')
    })
 });
 
@@ -75,9 +71,7 @@ $(function() {
         'animation': 'submarine 1s infinite ease',
         'animation-direction': 'alternate'
                    });  
-                   $('.julesverne').css({
-                                    'box-shadow':'unset'
-                                }) 
+                   $('.julesverne').removeClass('brightness')
    });
 });
 
@@ -86,9 +80,7 @@ $(function() {
     $('.lightbulb').css({
         'opacity': '1',
              });
-        $('.edison').css({
-           'box-shadow':'unset'
-                 })   
+        $('.edison').removeClass('brightness')
    });
 });
 
@@ -266,11 +258,11 @@ $(document).ready(function() {
            <img src="./images/5-3-3.svg" alt="" class="book_5_3_3">   
            <div class="radiy">
                <img src="images/close.png" alt="" class="close">
-               <div class="radiytext">
+               <div class="radiy_text">
                     <h1>Поздравляю!</h1>
                     <h1>Вы открыли радий.</h1>
+                    <p>Ra</p>
                </div>
-               <p>Ra</p>
            </div>     
        </div>
        

@@ -107,6 +107,10 @@ body {
 /* Animations */
 /* FERENC ANIMATION */
 
+.brightness {
+    filter: brightness(94%);
+}
+
 .ferenc {
     cursor: pointer;
     transition: all 0.6s;
@@ -206,9 +210,6 @@ body {
     top: 240px;
     left: 200px;
 
-    &:hover {
-        filter: brightness(94%);
-    }
 }
 
 
@@ -291,7 +292,7 @@ body {
 
 .submarine {
    position: absolute;
-   top: -300px; 
+   top: -340px; 
    right: -100px;
    z-index: 600;
 
@@ -433,7 +434,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     align-items: center;
     right: 580px;
     top: 2450px;
@@ -448,17 +449,19 @@ body {
         
     }
 
-    &text {
+    &_text {
+        padding: 1rem 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 1rem;
-        margin-top: 2rem;
+        margin-top: 0.6rem;
     }
 
     p {
         font-size: 120px;
         font-weight: 600;
+        margin-top: 0.5rem;
     }
 }
 
