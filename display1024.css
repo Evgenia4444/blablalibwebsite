@@ -14,7 +14,7 @@
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
-    height: 200px;
+    height: 470px;
   }
   .row_2_2 {
     -webkit-box-align: end;
@@ -133,14 +133,26 @@
     width: 21.5%;
   }
   .candlessprite {
-    width: 20%;
-    height: 20%;
-    background-size: 300px;
+    width: 200px;
+    height: 200px;
+    background-size: 400px;
+  }
+  .candlesbooks {
+    height: 200px;
   }
   .flasksprite {
     width: 40%;
     height: 45%;
-    background-size: 300px;
+    background-size: 260px;
+  }
+  .name {
+    margin: 2rem 1rem;
+    font-size: 2rem;
+  }
+  .radiy {
+    position: absolute;
+    top: 1960px;
+    left: 300px;
   }
 }
 /*# sourceMappingURL=display1024.css.map */
