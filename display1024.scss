@@ -166,27 +166,28 @@
      .row_5_1 {
 
         img {
-            width: 12.7%;
+            width: 15.2%;
         }
 
          .book_5_1_1 {
-             width: 17%;
+             width: 20.5%;
          }
          .book_5_1_4 {
-             width: 38.5%;
+             width: 42.8%;
          }
          
      }
 
 .row_5_3 {
+    justify-content: flex-end;
     .book_5_3_1 {
-        width: 24.5%;
+        width: 20%;
     }
     .book_5_3_2 {
-        width: 24.5%;
+        width: 21.5%;
     }
     .book_5_3_3 {
-        width: 33%;
+        width: 29%;
     }
 }
 
@@ -202,9 +203,10 @@
      }
 
      .flasksprite {
-         width: 40%;
-         height: 45%;
+         width: 153px;
+         height: 41%;
          background-size: 260px;
+         
      }
 
      .name {
@@ -217,15 +219,38 @@
 
      .radiy {
          position: absolute;
-         top: 1960px;
+         top: 2070px;
          left: 300px;
-     }
+         width: 300px;
+         
+
+         img {
+             width: 13%;
+         }
+         &_text {
+
+            align-items: center;
+            
+             h1 {
+                 font-size: 1.4rem;
+                 align-self: center;
+             }
+    
+             p{
+                 font-size: 3.5rem;
+             }
+         }
+
+         }
+
 
     .lightbulb {
         top: 1484px;
        left: 240px;
        z-index: 300;
     }
+
+   
  }
 
 

@@ -434,9 +434,9 @@ body {
 
 .flasksprite {
   overflow: hidden;
-  width: 180px;
-  height: 282px;
-  background-image: url("images/flasksprite.png");
+  width: 176px;
+  height: 271px;
+  background-image: url("images/flasksprite2.png");
   -webkit-transition: background-image 0.6s;
   transition: background-image 0.6s;
 }
