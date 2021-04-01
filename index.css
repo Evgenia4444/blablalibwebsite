@@ -119,19 +119,14 @@ body {
 /* Animations */
 /* FERENC ANIMATION */
 .brightness {
-  -webkit-filter: brightness(94%);
-          filter: brightness(94%);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
 }
 
 .ferenc {
   cursor: pointer;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
-}
-
-.ferenc:hover {
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
 }
 
 .music {
@@ -372,6 +367,10 @@ body {
 .edison:hover {
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
+}
+
+.row_4_1 {
+  z-index: 1200;
 }
 
 .lightbulbdiv {

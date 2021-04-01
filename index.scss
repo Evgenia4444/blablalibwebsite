@@ -108,16 +108,14 @@ body {
 /* FERENC ANIMATION */
 
 .brightness {
-    filter: brightness(94%);
+    filter: brightness(100%);
 }
 
 .ferenc {
     cursor: pointer;
     transition: all 0.6s;
 
-    &:hover {
-        filter: brightness(80%);
-    }
+  
 }
 
 
@@ -321,6 +319,10 @@ body {
     }
 }
 
+.row_4_1 {
+    z-index: 1200;
+
+}
 .lightbulbdiv {
     width: 120px;
     height: 528px;
