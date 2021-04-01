@@ -2,33 +2,73 @@
   .book_row {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    height: 370px;
+    height: 340px;
   }
   .book_row_part {
-    height: 380px;
+    height: 320px;
     padding-bottom: 0;
   }
   .book_row .row_1_1 {
-    height: 350px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    height: 320px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .book_row .row_1_1 .book_1_1_5 {
+    width: 32%;
+  }
+  .book_row .row_1_1 img {
+    width: 14.5%;
+  }
+  .book_row .row_1_1 .ferenc {
+    width: 21.9%;
   }
   .book_row .row_1_2 {
-    height: 368px;
+    height: 320px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
   .book_row .row_1_2 .candlessprite {
     justify-self: flex-end;
-    height: 40%;
+    height: 42%;
     width: 50%;
     background-size: 300px;
   }
   .book_row .row_1_2 .candlesbooks {
-    height: 157px;
-    width: 86%;
+    height: 119px;
+    width: 86.1%;
+  }
+  .book_row .row_4_1 {
+    height: 320px;
+  }
+  .book_row .row_4_1 .book_4_1_3 {
+    width: 38%;
+  }
+  .book_row .row_4_3 {
+    height: 320px;
+  }
+  .book_row .book_2_2_2 {
+    width: 46%;
+  }
+  .book_row .book_2_2_3 {
+    width: 15.4%;
+  }
+  .book_row .book_2_2_4 {
+    width: 15%;
+  }
+  .book_row .book_2_2_5 {
+    width: 14.9%;
+  }
+  .row_3_1 img {
+    width: 15%;
+  }
+  .row_3_1 .skullbooks .skull {
+    top: 784px;
+    left: 215px;
+  }
+  .row_3_1 .skullbooks .skull_books {
+    margin-left: 10%;
   }
 }
 /*# sourceMappingURL=display768.css.map */
