@@ -1,3 +1,0 @@
-import Jquery from 'jquery'
-
-
