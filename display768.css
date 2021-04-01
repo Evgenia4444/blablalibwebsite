@@ -2,11 +2,33 @@
   .book_row {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    height: 400px;
+    height: 370px;
   }
   .book_row_part {
     height: 380px;
     padding-bottom: 0;
+  }
+  .book_row .row_1_1 {
+    height: 350px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .book_row .row_1_2 {
+    height: 368px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .book_row .row_1_2 .candlessprite {
+    justify-self: flex-end;
+    height: 40%;
+    width: 50%;
+    background-size: 300px;
+  }
+  .book_row .row_1_2 .candlesbooks {
+    height: 157px;
+    width: 86%;
   }
 }
 /*# sourceMappingURL=display768.css.map */

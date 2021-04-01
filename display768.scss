@@ -4,13 +4,37 @@
     .book_row {
         margin-top: 1rem;
        margin-bottom: 1rem;
-       height: 400px;
+       height: 370px;
 
         &_part {
             height: 380px;
             padding-bottom: 0;
         }
        
+        
+    .row_1_1 {
+        height: 350px;
+        justify-content: flex-end;
     }
-  
+
+    
+    .row_1_2 {
+        height: 368px;
+        justify-content: flex-end;
+
+        .candlessprite {
+            justify-self: flex-end;
+            height: 40%;
+            width: 50%;
+            background-size: 300px;
+        }
+        .candlesbooks {
+            height: 157px;
+            width: 86%;
+        }
+    }
+  }
+   
+
 }
+  
