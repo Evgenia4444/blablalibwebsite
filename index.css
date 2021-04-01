@@ -25,7 +25,6 @@ body {
           justify-content: space-between;
   border-bottom: 20px solid #fff;
   margin-bottom: 6rem;
-  z-index: 10000;
 }
 
 .book_row_part {
@@ -100,12 +99,16 @@ body {
   margin-right: 0;
 }
 
-.row_4_1 {
+.row_4 {
+  z-index: 2400;
+}
+
+.row_4 .row_4_1 {
   width: 40%;
   margin-right: 0;
 }
 
-.row_4_2 {
+.row_4 .row_4_2 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -396,6 +399,7 @@ body {
 .lightbulbdiv {
   width: 120px;
   height: 528px;
+  z-index: 14;
 }
 
 .lightbulb {

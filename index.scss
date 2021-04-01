@@ -23,7 +23,7 @@ body {
     justify-content: space-between;
     border-bottom: 20px solid #fff;
     margin-bottom: 6rem;
-    z-index: 10000;
+   
     
     
     
@@ -90,15 +90,19 @@ body {
    margin-right: 0;
 }
 
-.row_4_1 {
-    width: 40%;
-    margin-right: 0;
-    
-}
+.row_4 {
+    z-index: 2400;
 
-.row_4_2 {
-    flex-direction: column;
-    align-self: self-start;
+    .row_4_1 {
+        width: 40%;
+        margin-right: 0;
+        
+    }
+    
+    .row_4_2 {
+        flex-direction: column;
+        align-self: self-start;
+    }
 }
 
 .name {
@@ -344,6 +348,7 @@ body {
 .lightbulbdiv {
     width: 120px;
     height: 528px;
+    z-index: 14;
    
 }
 .lightbulb {
