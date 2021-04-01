@@ -4,7 +4,7 @@
     .book_row {
         margin-top: 1rem;
        margin-bottom: 1rem;
-
+        z-index: 1;
        
     }
     
@@ -162,23 +162,33 @@
      .book_4_3_2 {
         width: 16.2%;
      }
-     .book_5_1_1 {
-         width: 21.5%;
+
+     .row_5_1 {
+
+        img {
+            width: 12.7%;
+        }
+
+         .book_5_1_1 {
+             width: 17%;
+         }
+         .book_5_1_4 {
+             width: 38.5%;
+         }
+         
      }
 
-     .book_5_1_4 {
-         width: 50%;
-     }
-
-     .book_5_3_1 {
-         width: 16%;
-     }
-     .book_5_3_2 {
-         width: 16%;
-     }
-     .book_5_3_3 {
-         width: 21.5%;
-     }
+.row_5_3 {
+    .book_5_3_1 {
+        width: 24.5%;
+    }
+    .book_5_3_2 {
+        width: 24.5%;
+    }
+    .book_5_3_3 {
+        width: 33%;
+    }
+}
 
      .candlessprite {
          width: 184px;
@@ -198,8 +208,11 @@
      }
 
      .name {
-         margin: 2rem 1rem;
-         font-size: 2rem;
+         margin: 2rem 0 2rem 1rem;
+         font-size: 1.4rem;
+         width: 100%;
+         padding: 1rem 0 1rem 2rem;
+         max-width: 100%;
      }
 
      .radiy {
@@ -208,6 +221,10 @@
          left: 300px;
      }
 
-    
+    .lightbulb {
+        top: 1484px;
+       left: 240px;
+       z-index: 300;
+    }
  }
 
