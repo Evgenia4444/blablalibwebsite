@@ -204,6 +204,11 @@
   .bookshelf_container .row_4_3 img {
     width: 80%;
   }
+  .bookshelf_container .row_4_3 .presubmarine {
+    width: 50%;
+    left: 10%;
+    top: 30%;
+  }
   .bookshelf_container .row_4_3 .book_4_3_2 {
     width: 17%;
   }
