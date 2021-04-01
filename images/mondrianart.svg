@@ -16,7 +16,7 @@
 <rect x="17.5459" y="15.875" width="104.441" height="2.50657" transform="rotate(90 17.5459 15.875)" fill="black"/>
 <rect x="17.5459" y="15.875" width="58.4868" height="29.2434" fill="#E5311D"/>
 <rect x="17.5459" y="15.875" width="58.4868" height="60.1579" fill="#E5311D"/>
-<rect x="17.5459" y="78.5391" width="29.2434" height="30.0789" fill="black"/>
+<path d="M16 76H48V109H16V76Z" fill="black"/>
 <rect x="48.4604" y="106.111" width="29.2434" height="7.51974" fill="black"/>
 <rect x="78.5396" y="94.4141" width="34.2566" height="19.2171" fill="#1B3D5C"/>
 <rect x="78.5396" y="15.875" width="34.2566" height="29.2434" fill="#D4C140"/>
