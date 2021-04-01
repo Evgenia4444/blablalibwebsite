@@ -52,9 +52,6 @@
             justify-content: flex-end;
     height: 480px;
   }
-  .bookshelf_container .book_row_part .book_1_1_5 {
-    width: 31%;
-  }
   .bookshelf_container .book_row_part .img {
     width: 16%;
   }
@@ -161,18 +158,21 @@
     top: 1207px;
     left: 180px;
   }
+  .bookshelf_container .book_row .row_1_1 .book_1_1_5 {
+    width: 30%;
+  }
   .bookshelf_container .music {
     width: 200px;
     height: 240px;
-    top: -80px;
+    top: 100px;
     opacity: 1;
     z-index: 1210;
   }
   .bookshelf_container .music .note1 {
     width: 34px;
     height: 70px;
-    left: 52%;
-    top: 260px;
+    left: 50%;
+    top: 36%;
   }
   .bookshelf_container .music .note1 img {
     width: 70px;
@@ -181,7 +181,7 @@
     width: 27px;
     height: 89px;
     left: 152px;
-    top: 92%;
+    top: 18%;
   }
   .bookshelf_container .music .note2 img {
     width: 56px;
@@ -189,7 +189,7 @@
   .bookshelf_container .music .note3 {
     width: 35px;
     height: 70px;
-    top: 280px;
+    top: 40%;
     left: 77%;
   }
   .bookshelf_container .music .note3 img {
@@ -202,11 +202,14 @@
             justify-content: flex-end;
   }
   .bookshelf_container .row_4_3 img {
-    width: 64%;
-    height: 20px;
+    width: 80%;
+  }
+  .bookshelf_container .row_4_3 .book_4_3_2 {
+    width: 17%;
   }
   .bookshelf_container .row_4_3 .books {
     height: 120px;
+    margin-right: 1%;
   }
   .bookshelf_container .row_4 {
     height: 740px;
@@ -252,7 +255,10 @@
     left: 100px;
   }
   .bookshelf_container .flasksprite {
-    background-size: -40%;
+    width: 79px;
+    height: 116px;
+    background-size: 160px;
+    margin-right: 4%;
   }
 }
 /*# sourceMappingURL=bookslayout.css.map */

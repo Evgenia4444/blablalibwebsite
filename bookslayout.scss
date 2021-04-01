@@ -55,10 +55,7 @@
             justify-content: flex-end;
             height: 480px;
 
-            .book_1_1_5 {
-                width: 31%;
-            }
-            
+          
 
            .img {
                width: 16%;
@@ -206,6 +203,14 @@
                 left: 180px;
             }
         }
+        
+    .row_1_1 {
+
+        .book_1_1_5 {
+              width: 30%;
+          }
+        
+  }
     
     }
 
@@ -214,15 +219,15 @@
     .music {
         width: 200px;
         height: 240px;
-        top: -80px;
+        top: 100px;
         opacity: 1;
         z-index: 1210;
 
         .note1 {
             width: 34px;
             height: 70px;
-            left: 52%;
-            top: 260px;
+            left: 50%;
+            top: 36%;
 
             img {
                 width: 70px;
@@ -233,8 +238,7 @@
             width: 27px;
             height: 89px;
             left: 152px;
-            top: 92%;
-
+            top: 18%;
             img {
                 width: 56px;
             }
@@ -243,7 +247,7 @@
         .note3 {
             width:  35px;
             height: 70px;
-            top: 280px;
+            top: 40%;
             left: 77%;
 
             img {
@@ -260,13 +264,17 @@
         
         img {
           
-          width: 64%;
-          height: 20px;
+          width: 80%;
+         
           
       }
 
+      .book_4_3_2 {
+          width: 17%;
+      }
       .books {
           height: 120px;
+          margin-right: 1%;
       }
   }
 
@@ -339,7 +347,11 @@
   
 
     .flasksprite {
-        background-size: -40%;
+        width: 79px;
+        height: 116px;
+        background-size: 160px;
+        margin-right: 4%;
+
     }
 
    
