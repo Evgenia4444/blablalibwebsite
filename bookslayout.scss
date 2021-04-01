@@ -169,37 +169,38 @@
     }
 
     .music {
-        width: 60%;
-        top: 100px;
+        width: 200px;
+        height: 240px;
+        top: -80px;
         opacity: 1;
 
         .note1 {
-            width: 80px;
+            width: 34px;
             height: 80px;
 
             img {
-               width: 80%;
+                width: 70px;
             }
-           
         }
 
         .note2 {
-            width: 67px;
+            width: 35px;
             height: 89px;
 
             img {
-                width: 80%;
+                width: 70px;
             }
         }
 
         .note3 {
-            width:  80px;
-            height: 60px;
-            left: 150px;
+            width:  36px;
+            height: 70px;
+            left: 60%;
 
             img {
-                width: 80%;
+                width: 70px;
             }
+            
         }
 
     }
@@ -221,12 +222,27 @@
 
     .row_2_1 {
         height: 700px;
+        margin-top: 2rem;
     }
     
     .row_1_2 {
         align-items: flex-end;
         justify-content: flex-end;
         margin-top: 2rem;
+        
+    .candlessprite {
+        background-image: url("images/candlesspritemobile.png");
+        overflow: hidden;
+        width: 80px;
+        height: 74px;
+        background-size: 170px;
+       }
+
+       .candlesbooks {
+           height: 80px;
+           width: 50%;
+       }
+
     }
 
     .row_2_2 {
@@ -279,13 +295,6 @@
 
    
   
-
-    .candlessprite {
-        background-image: url("images/candlesspritemobile.png");
-        overflow: hidden;
-        width: 121px;
-        height: 100px;
-    }
 
     .flasksprite {
         background-size: -40%;
