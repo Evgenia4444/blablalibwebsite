@@ -37,7 +37,7 @@
     height: 480px;
 
     .books {
-     
+        
         width: 60%;
       
     }
@@ -228,3 +228,30 @@
     }
  }
 
+
+ 
+ @media screen and (max-width: 1280px) {
+
+   
+ }
+
+ @media screen and (max-width: 1366px) {
+
+    
+ }
+
+ @media screen and (max-width: 1440px) {
+
+   
+ }
+
+ @media screen and (max-width: 1680px) {
+    .row_4_3 {
+        width: 50%;
+        justify-content: flex-end;
+
+        .books {
+            margin-right: 14%;
+        }
+    }
+ }

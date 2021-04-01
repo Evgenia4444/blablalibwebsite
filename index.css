@@ -415,6 +415,9 @@ body {
 }
 
 .mary {
+  position: absolute;
+  top: 1930px;
+  left: 389px;
   cursor: pointer;
   -webkit-transition: all 0.6s;
   transition: all 0.6s;
