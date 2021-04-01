@@ -128,6 +128,9 @@
   .bookshelf_container .book_row_part .book_5_3_3 {
     width: 21.5%;
   }
+  .bookshelf_container .book_row .row_4_3 {
+    height: 100px;
+  }
   .bookshelf_container .book_row .row_1_2 {
     -webkit-box-align: end;
         -ms-flex-align: end;
@@ -259,6 +262,7 @@
     position: absolute;
     height: 200px;
     top: 2350px;
+    left: 10px;
   }
   .bookshelf_container .lightbulb {
     height: 40%;

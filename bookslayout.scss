@@ -160,6 +160,10 @@
             
         }
 
+        .row_4_3 {
+            height: 100px;
+            
+        }
         .row_1_2 {
             align-items: flex-end;
             justify-content: flex-end;
@@ -341,6 +345,7 @@
         position: absolute;
         height: 200px;
         top: 2350px;
+        left: 10px;
     }
     .lightbulb {
         height: 40%;
