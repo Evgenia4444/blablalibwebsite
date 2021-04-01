@@ -87,7 +87,7 @@ body {
 }
 
 .row_4_1 {
-  padding-right: 100px;
+  width: 40%;
   margin-right: 0;
 }
 
@@ -301,12 +301,6 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-}
-
-.row_4_3 .books {
-  position: absolute;
-  top: 203px;
-  right: 230px;
 }
 
 .row_4_3 .presubmarine {

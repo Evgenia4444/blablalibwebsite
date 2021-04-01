@@ -139,12 +139,7 @@
                 
             }
 
-            .books {
-                width: 64%;
-                height: 120px;
-                top: 180px;
-                left: 6px;
-            }
+         
 
             .book_5_1_1 {
                 width: 21.5%;
@@ -205,6 +200,17 @@
 
     }
 
+    .row_4_3 {
+        height: 1000px;   
+        
+        img {
+          
+          width: 64%;
+          height: 20px;
+          
+      }
+  }
+
     .row_4 {
         height: 740px;
     }
@@ -212,10 +218,7 @@
         margin-top: 1rem;
         height: 1800px;      
     }
-    .row_4_3 {
-          height: 1400px;      
-    }
-
+  
     .row_5_1 {
         height: 900px;
     }

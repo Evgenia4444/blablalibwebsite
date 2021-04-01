@@ -30,18 +30,18 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  .row_4_1 {
+    height: 480px;
+  }
   .row_4_3 {
     width: 500px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
+    height: 480px;
   }
   .row_4_3 .books {
-    position: absolute;
-    width: 90%;
-    height: 220px;
-    top: 242px;
-    right: 152px;
+    width: 60%;
   }
   .row_4_3 img {
     top: 270px;
@@ -106,16 +106,10 @@
     width: 21.5%;
   }
   .book_4_1_1 {
-    width: 11%;
-    position: absolute;
-    top: 1606px;
-    left: 0;
+    width: 29%;
   }
   .edison {
-    width: 8%;
-    position: absolute;
-    top: 1608px;
-    left: 113px;
+    width: 21.2%;
   }
   .book_4_1_3 {
     width: 16%;
