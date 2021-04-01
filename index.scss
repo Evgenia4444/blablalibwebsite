@@ -59,6 +59,14 @@ body {
        opacity: 0;
        transition: 0.5s ease;
    }
+
+   .mondrianart {
+    position: absolute;
+    top: 40px;
+    left: -40px;
+    opacity: 0;
+    transition: all 0.6s;
+}
 }
 .row_2_2 {
     margin-right: 0;
@@ -252,6 +260,13 @@ body {
         filter: brightness(80%);
     }
 }
+
+.mondrian {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+
 
 
 

@@ -67,6 +67,11 @@
   .bookshelf_container .book_row_part .easel {
     width: 75%;
   }
+  .bookshelf_container .book_row_part .mondrianart {
+    width: 70%;
+    top: 29px;
+    left: 3.8%;
+  }
   .bookshelf_container .book_row_part .row_2_2 {
     padding-left: 100px;
     -webkit-box-pack: end;
