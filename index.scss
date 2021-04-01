@@ -123,6 +123,10 @@ body {
 /* FERENC ANIMATION */
 
 .brightness {
+    filter: brightness(80%);
+}
+
+.brightness100 {
     filter: brightness(100%);
 }
 

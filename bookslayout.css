@@ -201,7 +201,7 @@
     width: 70px;
   }
   .bookshelf_container .row_4_3 {
-    height: 800px;
+    height: 500px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;

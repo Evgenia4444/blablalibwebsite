@@ -27,14 +27,14 @@
 
 $(function() {
     $('.ferenc').hover(function() {
-    $('.ferenc').toggleClass('brightness')
+    $('.ferenc').toggleClass(brightness)
     });
 
     $('.ferenc').click(function() {
     $('.music').css({
         'opacity': '1'
         });
-        $('.brightness').css({'filter': 'brightness(100%)'})
+        $('.ferenc').addClass(brightness100)
     });
     });
 
@@ -64,8 +64,14 @@ $('.salvador').click(function() {
 $('.clock').css('opacity', '1');
 $('.mondrianart').css({
     'opacity': '0'
-})
-})
+  });
+
+  
+      $('.salvador').hover(function() {
+          $('.salvador').addClass('brightness100')
+      });
+  
+ });
 });
 
 
@@ -87,7 +93,7 @@ $(function() {
 $('.julesverne').click(function() {
 $('.presubmarine').css({
 'opacity': '1',
-'top': '-60px',
+'top': '20%',
 'right': '340px',
 'animation': 'submarine 1s infinite ease',
 'animation-direction': 'alternate'

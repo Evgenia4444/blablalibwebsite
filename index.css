@@ -136,6 +136,11 @@ body {
 /* Animations */
 /* FERENC ANIMATION */
 .brightness {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.brightness100 {
   -webkit-filter: brightness(100%);
           filter: brightness(100%);
 }
