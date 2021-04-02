@@ -86,7 +86,7 @@ body {
     width: 45%;
     height: 300px;
     z-index: 40000;
-    opacity: 0;
+    display: none;
     transition: all 0.6s;
 
     .bat1 {
@@ -200,13 +200,13 @@ body {
 
 
 .music {
-    opacity: 0;
+    display: none;
     width: 500px;
     height: 300px;
     position: absolute;
     top: 20%;
     left: 30%;
-    transition: all 0.3s;
+    transition: all 0.6s;
 }
 
 

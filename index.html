@@ -29,7 +29,7 @@ $(function() {
   
     $('.ferenc').click(function() {
     $('.music').css({
-        'opacity': '1'
+        'display': 'block'
         });
         
     });
@@ -84,7 +84,7 @@ $('.clock').css({
 
 $(function() {
 $('.skullbooks').click(function() {
-$('.bats').css({'opacity': '1'});
+$('.bats').css({'display': 'block'});
 
 })
 });
@@ -204,7 +204,9 @@ $('.edison').click(function() {
 $('.lightbulb').css({
 'opacity': '1',
      });
-$('.edison').removeClass('brightness')
+     $('.flasksprite').hover(function() {
+    $('.flasksprite').css('filter','brightness(80%)')
+})
 });
 });
 
