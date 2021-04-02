@@ -4,12 +4,12 @@
         width: 100%;
 
        
-       
+  
     .name {
         max-width: 80%;
-        padding: 2rem 1rem;
-        margin-top: 1rem;
-        font-size: 1rem;
+        padding: 2rem 1rem 0rem;
+        margin-top: 1.5rem;
+        font-size: 0.75rem;
         
       }
 
@@ -20,11 +20,22 @@
         width: 100%;
        
         .mary {
-            top: 1688px;
-            left: 62px;
+            top: 1712px;
+            left: 61px;
         }
      
         .row_5_3 {
+            margin-top: 2rem;
+
+            .flasksprite {
+                width: 79px;
+                height: 116px;
+                background-size: 160px;
+                margin-right: 4%;
+        
+            }
+               
+           
             .radiy {
                 top: 1000px;
                 position: absolute;
@@ -38,7 +49,7 @@
                 width: 16%;
             }
             .book_5_3_3 {
-                width: 16%;
+                width: 21.6%;
             }
     
         }
@@ -144,7 +155,7 @@
         }
 
         .row_4_3 {
-            height: 500px;
+            height: 540px;
             
         }
         .row_1_2 {
@@ -291,12 +302,12 @@
   }
 
     .row_4 {
-        height: 580px;
+        height: 650px;
     }
     
   
     .row_5_1 {
-        height: 900px;
+       margin-top: 2rem;
     }
 
     
@@ -351,13 +362,6 @@
    
   
 
-    .flasksprite {
-        width: 79px;
-        height: 116px;
-        background-size: 160px;
-        margin-right: 4%;
-
-    }
 
     
   }
