@@ -9,9 +9,13 @@
         &_part {
             height: 320px;
             padding-bottom: 0;
+
+            
+        .name {
+            font-size: 1rem;
+        }
         }
        
-        
     .row_1_1 {
         height: 320px;
         justify-content: flex-start;
@@ -46,8 +50,14 @@
     }
 
    .row_4_1 {
+       top: 1200px;
        height: 320px;
-
+    .lightbulbdiv {
+         width: 50%;
+        .lightbulb {
+            width: 20%;
+        }
+    }
        .book_4_1_3 {
            width: 38%;
        }
@@ -73,6 +83,8 @@
     .book_2_2_5 {
         width: 14.9%;
     }
+
+   
   }
    
   .row_3_1 {
@@ -92,6 +104,8 @@
         }
     }
   }
+
+  
 
 }
   

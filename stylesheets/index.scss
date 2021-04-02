@@ -79,6 +79,60 @@ body {
     z-index: 4004;
 }
 
+.bats {
+    position: absolute;
+    top: 1200px;
+    left: 180px;
+    width: 45%;
+    height: 300px;
+    z-index: 40000;
+    opacity: 0;
+    transition: all 0.6s;
+
+    .bat1 {
+        position: absolute;
+        top: 170px;
+        left: 74px;
+        cursor: pointer;
+    }
+    .bat2 {
+        position: absolute;
+        top: 78px;
+        left: 60px;
+        cursor: pointer;
+    }
+    .bat3 {
+        position: absolute;
+        top: 6px;
+        left: 140px;
+        cursor: pointer;
+    }
+    .bat4 {
+        position: absolute;
+        top: 30px;
+        left: 280px;
+        cursor: pointer;
+    }
+    .bat5 {
+        position: absolute;
+        top: 94px;
+        left: 362px;
+        cursor: pointer;
+    }
+    .bat6 {
+        position: absolute;
+        top: 156px;
+        left: 464px;
+        cursor: pointer;
+    }
+
+    .bat7 {
+        position: absolute;
+        top: 40px;
+        left: 474px;
+        cursor: pointer;
+    }
+}
 .row_3_2 {
     margin-top: 0;
     flex-direction: column;
@@ -249,7 +303,7 @@ body {
     width: 243px;
     height: 240px;
     cursor: pointer;
-    background-image: url("images/candlessprite.png");
+    background-image: url("../images/candlessprite.png");
     transition: background-image 0.6s;
 }
 
@@ -396,7 +450,7 @@ body {
     overflow: hidden;
     width: 176px;
     height: 271px;
-    background-image: url("images/flasksprite2.png");
+    background-image: url("../images/flasksprite2.png");
     transition: background-image 0.6s;
 }
 

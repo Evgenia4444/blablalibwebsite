@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='shortcut icon' type='image/png' href='./images/favicon.png'>
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./stylesheets/index.css" />
  
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     
-       <link rel="stylesheet" href="./bookslayout.css" />
-    <link rel="stylesheet" href="./display768.css" />
-    <link rel="stylesheet" href="./display1024.css" />
+       <link rel="stylesheet" href="./stylesheets/bookslayout.css" />
+    <link rel="stylesheet" href="./stylesheets/display768.css" />
+    <link rel="stylesheet" href="./stylesheets/display1024.css" />
 
     <script>
        
@@ -74,7 +74,7 @@ $('.mondrianart').css({
 
 $(function() {
 $('.mondrian').click(function() {
-$('.mondrianart').css('opacity', '1');
+$('.mondrianart').css({'opacity': '1'});
 $('.clock').css({
     'opacity': '0'
 })
@@ -82,7 +82,26 @@ $('.clock').css({
 });
 
 
+$(function() {
+$('.skullbooks').click(function() {
+$('.bats').css({'opacity': '1'});
 
+})
+});
+
+$(function() {
+$('.bat1').click(function() {
+    if($(".bat1").attr('src')!='./images/batpurple1.png'){
+                $(".bat1").attr('src', './images/batpink1.png');
+            }
+            else
+            {
+                $("bat1").attr('src', './images/batwhite1.png');
+            }
+            console.log()
+
+})
+});
 
 
 
@@ -219,6 +238,15 @@ console.log('Clockpath '+i+' is '+clock[i].length)
    </div>
    <div class="book_row">
        <div class="book_row_part row_3_1">
+           <div class="bats">
+                <img src="./images/batpurple1.png" alt="" class="bat bat1">
+               <img src="./images/batpurple2.png" alt="" class="bat bat2">     
+               <img src="./images/bat3.svg" alt="" class="bat bat3">
+               <img src="./images/bat4.svg" alt="" class="bat bat4">
+               <img src="./images/bat5.svg" alt="" class="bat bat5">
+               <img src="./images/bat6.svg" alt="" class="bat bat6">
+               <img src="./images/bat7.svg" alt="" class="bat bat7">
+           </div>
            <img src="./images/3-1-1.svg" alt="" class="img">
            <img src="./images/3-1-2.svg" alt="" class="img">
            <div class="skullbooks">

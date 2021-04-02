@@ -7,7 +7,8 @@
         z-index: 1;
        
     }
-    
+
+   
     .row_1_2 {
 
         display: flex;
@@ -15,6 +16,7 @@
         align-items: flex-end;
         justify-content: flex-end;
         height: 481px;
+        
         
         
     }
@@ -75,10 +77,27 @@
          width: 22%;
 
      }
-     .easel {
-         width: 75%;
-     }
 
+     .easeldiv {
+
+         .easel {
+             width: 75%;
+    
+             
+         }
+
+         .clock {
+             width: 120%;
+             top: 20px;
+             right: 17px;
+         }
+         .mondrianart {
+            width: 62%;
+            position: absolute;
+            top: 50px;
+            left: 9px;
+        }
+     }
      
      .book_2_2_1 {
          top: 200px;
@@ -248,6 +267,7 @@
         top: 1484px;
        left: 240px;
        z-index: 300;
+       width: 10%;
     }
 
    
