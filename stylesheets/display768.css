@@ -1,6 +1,7 @@
 @media screen and (max-width: 768px) {
   .bookshelf_container .radiy {
     top: 1490px;
+    left: 140px;
   }
   .bookshelf_container .name {
     max-width: 80%;
