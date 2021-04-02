@@ -22,10 +22,10 @@
     width: 16%;
   }
   .bookshelf_container .book_row .row_2_2 .book_2_2_4 {
-    width: 16%;
+    width: 20.5%;
   }
   .bookshelf_container .book_row .row_2_2 .book_2_2_5 {
-    width: 16%;
+    width: 20.5%;
   }
   .bookshelf_container .book_row_part {
     height: 320px;
@@ -68,6 +68,10 @@
   }
   .bookshelf_container .book_row .row_1_1 .ferenc {
     width: 21.9%;
+  }
+  .bookshelf_container .book_row .row_1_1 .music {
+    width: 300px;
+    top: 1%;
   }
   .bookshelf_container .row_1_2 {
     height: 320px;
