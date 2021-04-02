@@ -13,22 +13,66 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 266px;
+  height: 400px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
 
-.skull {
+.skullbooks .skull {
   position: absolute;
   top: 1256px;
   left: 360px;
-  color: #000;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {
   .bookshelf_container {
     width: 100%;
+  }
+  .bookshelf_container .row_5_3 .radiy {
+    top: 1000px;
+    position: absolute;
+    left: 1px;
+  }
+  .bookshelf_container .row_5_3 .book_5_3_1 {
+    width: 16%;
+  }
+  .bookshelf_container .row_5_3 .book_5_3_2 {
+    width: 16%;
+  }
+  .bookshelf_container .row_5_3 .book_5_3_3 {
+    width: 16%;
+  }
+  .bookshelf_container .row_4_1 {
+    margin-top: 1rem;
+    height: 400px;
+  }
+  .bookshelf_container .row_4_1 .mary {
+    width: 36%;
+    position: absolute;
+    top: 2240x;
+    left: 69px;
+  }
+  .bookshelf_container .row_4_1 .book_4_1_3 {
+    width: 36%;
+    position: absolute;
+    top: 2540x;
+    left: 128px;
+  }
+  .bookshelf_container .row_2_2 {
+    padding-left: 100px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .bookshelf_container .row_2_2 .book_2_2_1 {
+    top: 82px;
+    left: 12px;
+    width: 32%;
+  }
+  .bookshelf_container .row_2_2 .book_2_2_3 {
+    width: 16%;
   }
   .bookshelf_container .name {
     max-width: 80%;
@@ -57,9 +101,6 @@
   .bookshelf_container .book_row_part .img {
     width: 16%;
   }
-  .bookshelf_container .book_row_part .ferenc {
-    width: 24%;
-  }
   .bookshelf_container .book_row_part .salvador {
     width: 16%;
   }
@@ -73,20 +114,6 @@
     width: 70%;
     top: 29px;
     left: 3.8%;
-  }
-  .bookshelf_container .book_row_part .row_2_2 {
-    padding-left: 100px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .bookshelf_container .book_row_part .book_2_2_1 {
-    top: 82px;
-    left: 12px;
-    width: 32%;
-  }
-  .bookshelf_container .book_row_part .book_2_2_2 {
-    width: 46%;
   }
   .bookshelf_container .book_row_part .julesverne {
     width: 16%;
@@ -103,32 +130,11 @@
   .bookshelf_container .book_row_part .edison {
     width: 17%;
   }
-  .bookshelf_container .book_row_part .book_4_1_3 {
-    width: 36%;
-    position: absolute;
-    top: 2540x;
-    left: 0px;
-  }
-  .bookshelf_container .book_row_part .mary {
-    width: 36%;
-    position: absolute;
-    top: 1858px;
-    left: 69px;
-  }
   .bookshelf_container .book_row_part .book_5_1_1 {
     width: 21.5%;
   }
   .bookshelf_container .book_row_part .book_5_1_4 {
     width: 50%;
-  }
-  .bookshelf_container .book_row_part .book_5_3_1 {
-    width: 16%;
-  }
-  .bookshelf_container .book_row_part .book_5_3_2 {
-    width: 16%;
-  }
-  .bookshelf_container .book_row_part .book_5_3_3 {
-    width: 21.5%;
   }
   .bookshelf_container .book_row .row_4_3 {
     height: 100px;
@@ -142,7 +148,7 @@
             justify-content: flex-end;
   }
   .bookshelf_container .book_row .row_1_2 .candlessprite {
-    background-image: url("images/candlesspritemobile.png");
+    background-image: url("../images/candlesspritemobile.png");
     overflow: hidden;
     width: 112px;
     height: 89px;
@@ -168,8 +174,23 @@
     top: 1207px;
     left: 180px;
   }
+  .bookshelf_container .book_row .row_1_1 .book_1_1_1 {
+    width: 14%;
+  }
+  .bookshelf_container .book_row .row_1_1 .book_1_1_2 {
+    width: 14%;
+  }
+  .bookshelf_container .book_row .row_1_1 .book_1_1_3 {
+    width: 14%;
+  }
+  .bookshelf_container .book_row .row_1_1 .book_1_1_4 {
+    width: 14%;
+  }
   .bookshelf_container .book_row .row_1_1 .book_1_1_5 {
     width: 30%;
+  }
+  .bookshelf_container .book_row .row_1_1 .ferenc {
+    width: 21%;
   }
   .bookshelf_container .music {
     width: 200px;
@@ -229,17 +250,8 @@
   .bookshelf_container .row_4 {
     height: 740px;
   }
-  .bookshelf_container .row_4_1 {
-    margin-top: 1rem;
-    height: 1800px;
-  }
   .bookshelf_container .row_5_1 {
     height: 900px;
-  }
-  .bookshelf_container .row_5_3 .radiy {
-    top: 1000px;
-    position: absolute;
-    left: 1px;
   }
   .bookshelf_container .row_2_1 {
     height: 700px;
