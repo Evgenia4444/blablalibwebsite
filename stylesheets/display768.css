@@ -1,7 +1,4 @@
 @media screen and (max-width: 768px) {
-  .bookshelf_container .presubmarine {
-    width: 83%;
-  }
   .bookshelf_container .name {
     max-width: 80%;
   }
@@ -96,6 +93,9 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .bookshelf_container .row_4_1 .radiy {
+    top: 2300px;
+  }
   .bookshelf_container .row_4_1 .lightbulbdiv {
     width: 50%;
     top: 200px;
@@ -116,7 +116,10 @@
     height: 320px;
   }
   .bookshelf_container .row_4_3 .books {
-    margin-right: 13%;
+    margin-right: 1%;
+  }
+  .bookshelf_container .row_4_3 .presubmarine {
+    width: 57.8%;
   }
   .bookshelf_container .row_5_3 .flasksprite {
     width: 72px;
