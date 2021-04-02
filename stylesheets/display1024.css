@@ -1,10 +1,27 @@
 @media screen and (max-width: 1024px) {
-  .book_row {
+  .bookshelf_container .row_4_3 {
+    width: 500px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    height: 480px;
+  }
+  .bookshelf_container .row_4_3 .books {
+    margin-right: 20%;
+    width: 60%;
+  }
+  .bookshelf_container .row_4_3 .presubmarine {
+    width: 80%;
+  }
+  .bookshelf_container .row_4_3 img {
+    top: 270px;
+  }
+  .bookshelf_container .book_row {
     margin-top: 1rem;
     margin-bottom: 1rem;
     z-index: 1;
   }
-  .row_1_2 {
+  .bookshelf_container .row_1_2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -20,193 +37,180 @@
             justify-content: flex-end;
     height: 481px;
   }
-  .row_2_2 {
+  .bookshelf_container .row_2_2 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .row_3_3 {
+  .bookshelf_container .row_3_3 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .row_4_1 {
+  .bookshelf_container .row_4_1 {
     height: 480px;
   }
-  .row_4_3 {
-    width: 500px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-    height: 480px;
-  }
-  .row_4_3 .books {
-    width: 60%;
-  }
-  .row_4_3 img {
-    top: 270px;
-  }
-  .img {
+  .bookshelf_container .img {
     width: 16%;
   }
-  .ferenc {
+  .bookshelf_container .ferenc {
     width: 24%;
   }
-  .salvador {
+  .bookshelf_container .salvador {
     width: 16%;
   }
-  .clock {
+  .bookshelf_container .clock {
     width: 60%;
   }
-  .book_1_1_5 {
+  .bookshelf_container .book_1_1_5 {
     width: 32%;
   }
-  .candlesbooks {
+  .bookshelf_container .candlesbooks {
     width: 75%;
   }
-  .book_2_1_1 {
+  .bookshelf_container .book_2_1_1 {
     width: 22%;
   }
-  .easeldiv .easel {
+  .bookshelf_container .easeldiv .easel {
     width: 75%;
   }
-  .easeldiv .clock {
+  .bookshelf_container .easeldiv .clock {
     width: 120%;
     top: 20px;
     right: 17px;
   }
-  .easeldiv .mondrianart {
+  .bookshelf_container .easeldiv .mondrianart {
     width: 62%;
     position: absolute;
     top: 50px;
     left: 9px;
   }
-  .book_2_2_1 {
+  .bookshelf_container .book_2_2_1 {
     top: 200px;
     left: -52px;
     width: 37%;
   }
-  .book_2_2_2 {
+  .bookshelf_container .book_2_2_2 {
     width: 37%;
   }
-  .book_2_2_3 {
+  .bookshelf_container .book_2_2_3 {
     width: 18.3%;
   }
-  .book_2_2_4 {
+  .bookshelf_container .book_2_2_4 {
     width: 17.8%;
   }
-  .book_2_2_5 {
+  .bookshelf_container .book_2_2_5 {
     width: 17.8%;
   }
-  .skullbooks .skull_books {
+  .bookshelf_container .skullbooks .skull_books {
     width: 90%;
     top: 1000px;
   }
-  .skullbooks .skull {
+  .bookshelf_container .skullbooks .skull {
     width: 18%;
     top: 1124px;
     left: 237px;
   }
-  .julesverne {
+  .bookshelf_container .julesverne {
     width: 16%;
   }
-  .book_3_3_1 {
+  .bookshelf_container .book_3_3_1 {
     width: 37%;
   }
-  .book_3_3_4 {
+  .bookshelf_container .book_3_3_4 {
     width: 21.5%;
   }
-  .book_4_1_1 {
+  .bookshelf_container .book_4_1_1 {
     width: 29%;
   }
-  .edison {
+  .bookshelf_container .edison {
     width: 21.2%;
   }
-  .book_4_1_3 {
+  .bookshelf_container .book_4_1_3 {
     width: 16%;
     position: absolute;
     top: 2540x;
     left: 196px;
   }
-  .mary {
+  .bookshelf_container .mary {
     width: 16%;
     position: absolute;
     top: 1720px;
     left: 283px;
   }
-  .book_4_3_1 {
+  .bookshelf_container .book_4_3_1 {
     width: 16%;
   }
-  .book_4_3_2 {
+  .bookshelf_container .book_4_3_2 {
     width: 16.2%;
   }
-  .row_5_1 img {
+  .bookshelf_container .row_5_1 img {
     width: 15.2%;
   }
-  .row_5_1 .book_5_1_1 {
+  .bookshelf_container .row_5_1 .book_5_1_1 {
     width: 20.5%;
   }
-  .row_5_1 .book_5_1_4 {
+  .bookshelf_container .row_5_1 .book_5_1_4 {
     width: 42.8%;
   }
-  .row_5_3 {
+  .bookshelf_container .row_5_3 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .row_5_3 .book_5_3_1 {
+  .bookshelf_container .row_5_3 .book_5_3_1 {
     width: 20%;
   }
-  .row_5_3 .book_5_3_2 {
+  .bookshelf_container .row_5_3 .book_5_3_2 {
     width: 21.5%;
   }
-  .row_5_3 .book_5_3_3 {
+  .bookshelf_container .row_5_3 .book_5_3_3 {
     width: 29%;
   }
-  .candlessprite {
+  .bookshelf_container .candlessprite {
     width: 184px;
     height: 170px;
     background-size: 370px;
   }
-  .candlesbooks {
+  .bookshelf_container .candlesbooks {
     height: 142px;
   }
-  .flasksprite {
+  .bookshelf_container .flasksprite {
     width: 153px;
     height: 41%;
     background-size: 260px;
   }
-  .name {
+  .bookshelf_container .name {
     margin: 2rem 0 2rem 1rem;
     font-size: 1.4rem;
     width: 100%;
     padding: 1rem 0 1rem 2rem;
     max-width: 80%;
   }
-  .radiy {
+  .bookshelf_container .radiy {
     position: absolute;
     top: 2070px;
     left: 300px;
     width: 300px;
   }
-  .radiy img {
+  .bookshelf_container .radiy img {
     width: 13%;
   }
-  .radiy_text {
+  .bookshelf_container .radiy_text {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
   }
-  .radiy_text h1 {
+  .bookshelf_container .radiy_text h1 {
     font-size: 1.4rem;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .radiy_text p {
+  .bookshelf_container .radiy_text p {
     font-size: 3.5rem;
   }
-  .lightbulb {
+  .bookshelf_container .lightbulb {
     top: 1484px;
     left: 240px;
     z-index: 300;
@@ -214,7 +218,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) and (max-width: 1280px) {
   .bookshelf_container .row_4_3 .books {
     margin-right: 0;
   }
@@ -269,13 +273,13 @@
   }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1024px) and (max-width: 1366px) {
   .flasksprite {
     width: 180.5px;
   }
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1024px) and (max-width: 1680px) {
   .row_4_3 {
     width: 50%;
     -webkit-box-pack: end;
