@@ -11,7 +11,8 @@
     width: 60%;
   }
   .bookshelf_container .row_4_3 .presubmarine {
-    width: 80%;
+    width: 97%;
+    z-index: 12000;
   }
   .bookshelf_container .row_4_3 img {
     top: 270px;
