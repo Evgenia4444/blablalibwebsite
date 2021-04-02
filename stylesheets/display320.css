@@ -2,6 +2,9 @@
   .bookshelf_container {
     width: 100%;
   }
+  .bookshelf_container .book_2_1_4 {
+    width: 38%;
+  }
   .bookshelf_container .name {
     max-width: 80%;
     padding: 2rem 1rem 0rem;
@@ -55,6 +58,11 @@
     left: 12px;
     width: 32%;
   }
+  .bookshelf_container .book_row .row_2_2 .book_2_2_2 {
+    top: 82px;
+    left: 12px;
+    width: 50%;
+  }
   .bookshelf_container .book_row .row_2_2 .book_2_2_3 {
     width: 16%;
   }
@@ -80,7 +88,7 @@
     width: 16%;
   }
   .bookshelf_container .book_row_part .book_2_1_1 {
-    width: 22%;
+    width: 24%;
   }
   .bookshelf_container .book_row_part .easel {
     width: 75%;

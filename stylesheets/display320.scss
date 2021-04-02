@@ -3,7 +3,9 @@
     .bookshelf_container {
         width: 100%;
 
-       
+        .book_2_1_4 {
+            width: 38%;
+        }
   
     .name {
         max-width: 80%;
@@ -64,6 +66,13 @@
                 left: 12px;
                 width: 32%;
             }
+
+            .book_2_2_2 {
+                top: 82px;
+                left: 12px;
+                width: 50%;
+            }
+
             .book_2_2_3 {
                 width: 16%;
             }
@@ -103,8 +112,9 @@
          
 
             .book_2_1_1 {
-                width: 22%;
+                width: 24%;
             }
+            
             .easel {
                 width: 75%;
             }
