@@ -459,10 +459,10 @@ body {
 
 .flasksprite {
     overflow: hidden;
-    width: 176px;
+    width: 170px;
     height: 271px;
     background-image: url("../images/flasksprite2.png");
-    transition: all 0.3s;
+    transition: background-image 0.03s;
 
    
 }
