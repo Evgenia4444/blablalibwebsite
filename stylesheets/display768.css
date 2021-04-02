@@ -91,6 +91,11 @@
   }
   .book_row .row_4_1 .book_4_1_3 {
     width: 15%;
+    left: 153px;
+  }
+  .book_row .row_4_1 .mary {
+    top: 1220px;
+    left: 210px;
   }
   .book_row .row_4_3 {
     height: 320px;
