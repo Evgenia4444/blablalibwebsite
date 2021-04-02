@@ -1,168 +1,178 @@
 @media screen and (max-width: 768px) {
    
-.bookshelf_container {
-    .flasksprite {
-        width: 76px;
-        height: 120px;
-        background-size: 164px;
-        
-    }
-    .book_row {
-        margin-top: 1rem;
-       margin-bottom: 1rem;
-       height: 340px;
-
-       
-       .row_2_2 {
-        .book_2_2_2 {
-            width: 40%;
-        }
-        .book_2_2_3 {
-            width: 16%;
-        }
-        .book_2_2_4 {
-            width: 16%;
-        }
-        .book_2_2_5 {
-            width: 16%;
-        }
-    }
-
-        &_part {
-            height: 320px;
-            padding-bottom: 0;
-
-            
-        .name {
-            font-size: 1rem;
-        }
-        }
-        .row_2_1 {
-            img {
-                width: 13%;
-            }
-            .book_2_1_4 {
-                width: 13%;
-            }
-            .salvador {
-                width: 14.4%;
-            }
-            .book_2_1_1{
-                width: 20%;
-            }
-
-            .easel {
-                width: 40%;
-
-            }
-           
-             .clock {
-                 width: 80%;
-                 top: -20px;
-                 left: -57px;
-             }
-
-        }
-
-        
-    .row_1_1 {
-        height: 320px;
-        justify-content: flex-start;
-
-        .book_1_1_5 {
-            width: 32%;
-        }
-        img {
-            width: 14.5%;
-        }
-
-        .ferenc {
-            width: 21.9%;
-        }
-    }
-}
-
+    .bookshelf_container {
     
-    .row_1_2 {
-        height: 320px;
-        justify-content: flex-end;
-
-        .candlessprite {
-            justify-self: flex-end;
-            height: 42%;
-            width: 50%;
-            background-size: 300px;
+        .presubmarine {
+            width: 83%;
         }
-        .candlesbooks {
-            height: 119px;
-            width: 86.1%;
+        .name {
+            max-width: 80%;
+        }
+        .flasksprite {
+            width: 76px;
+            height: 120px;
+            background-size: 164px;
+            
+        }
+        .book_row {
+            margin-top: 1rem;
+           margin-bottom: 1rem;
+           height: 340px;
+    
+           
+           .row_2_2 {
+            .book_2_2_2 {
+                width: 40%;
+            }
+            .book_2_2_3 {
+                width: 16%;
+            }
+            .book_2_2_4 {
+                width: 16%;
+            }
+            .book_2_2_5 {
+                width: 16%;
+            }
+        }
+    
+            &_part {
+                height: 320px;
+                padding-bottom: 0;
+    
+                
+            .name {
+                font-size: 1rem;
+            }
+            }
+            .row_2_1 {
+                img {
+                    width: 13%;
+                }
+                .book_2_1_4 {
+                    width: 13%;
+                }
+                .salvador {
+                    width: 14.4%;
+                }
+                .book_2_1_1{
+                    width: 20%;
+                }
+    
+                .easel {
+                    width: 40%;
+    
+                }
+               
+                 .clock {
+                     width: 80%;
+                     top: -20px;
+                     left: -57px;
+                 }
+    
+            }
+    
+            
+        .row_1_1 {
+            height: 320px;
+            justify-content: flex-start;
+    
+            .book_1_1_5 {
+                width: 32%;
+            }
+            img {
+                width: 14.5%;
+            }
+    
+            .ferenc {
+                width: 21.9%;
+            }
         }
     }
-
-   .row_4_1 {
-       top: 1200px;
-       height: 1000px;
-       justify-content: flex-start;
-
-    .lightbulbdiv {
-         width: 50%;
-         top: 200px;
-
-        .lightbulb {
-            width: 10%;
-            top: 1000px;
-        }
-    }
-       .book_4_1_3 {
-           width: 15%;
-           left: 153px;
-       }
-
-       .mary {
-           top: 1220px;
-           left: 210px;
-       }
-   }
-
-   .row_4_3 {
-       height: 320px;
-
-       
-   }
-
-  .row_5_3 {
-    .flasksprite {
-        width: 72px;
-        height: 120px;
-        background-size: 160px;
+    
         
-    }
-  }
-
-   
-  }
-   
-  .row_3_1 {
-      img {
-          width: 15%;
+        .row_1_2 {
+            height: 320px;
+            justify-content: flex-end;
+    
+            .candlessprite {
+                justify-self: flex-end;
+                height: 42%;
+                width: 50%;
+                background-size: 300px;
+            }
+            .candlesbooks {
+                height: 119px;
+                width: 86.1%;
+            }
+        }
+    
+       .row_4_1 {
+           top: 1200px;
+           height: 320px;
+           justify-content: flex-start;
+    
+        .lightbulbdiv {
+             width: 50%;
+             top: 200px;
+    
+            .lightbulb {
+                width: 10%;
+                top: 1000px;
+            }
+        }
+           .book_4_1_3 {
+               width: 15%;
+               left: 153px;
+           }
+    
+           .mary {
+               top: 1220px;
+               left: 210px;
+           }
+       }
+    
+       .row_4_3 {
+           height: 320px;
+    
+           .books {
+            margin-right: 13%;
+        }
+           
+       }
+    
+      .row_5_3 {
+        .flasksprite {
+            width: 72px;
+            height: 120px;
+            background-size: 160px;
+            
+        }
       }
-
-      .skullbooks {
-
-        .skull {
-            top: 784px;
-            left: 215px;
+    
+       
+      }
+       
+      .row_3_1 {
+          img {
+              width: 15%;
+          }
+    
+          .skullbooks {
+    
+            .skull {
+                top: 784px;
+                left: 215px;
+            }
+    
+            .skull_books {
+                margin-left: 10%;
+            }
         }
-
-        .skull_books {
-            margin-left: 10%;
-        }
+      }
+    
+    
+    
+      
+    
     }
-  }
-
-
-
-  
-
-}
-  
+      
