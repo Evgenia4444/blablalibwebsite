@@ -15,7 +15,47 @@
             font-size: 1rem;
         }
         }
-       
+        .row_2_1 {
+            img {
+                width: 13%;
+            }
+            .book_2_1_4 {
+                width: 13%;
+            }
+            .salvador {
+                width: 14.4%;
+            }
+            .book_2_1_1{
+                width: 20%;
+            }
+
+            .easel {
+                width: 40%;
+
+            }
+           
+             .clock {
+                 width: 80%;
+                 top: -20px;
+                 left: -57px;
+             }
+
+        }
+
+        .row_2_2 {
+            .book_2_2_2 {
+                width: 60%;
+            }
+            .book_2_2_3 {
+                width: 25%;
+            }
+            .book_2_2_4 {
+                width: 21%;
+            }
+            .book_2_2_5 {
+                width: 21%;
+            }
+        }
     .row_1_1 {
         height: 320px;
         justify-content: flex-start;
@@ -52,14 +92,19 @@
    .row_4_1 {
        top: 1200px;
        height: 320px;
+       justify-content: flex-start;
+
     .lightbulbdiv {
          width: 50%;
+         top: 200px;
+
         .lightbulb {
-            width: 20%;
+            width: 10%;
+            top: 1000px;
         }
     }
        .book_4_1_3 {
-           width: 38%;
+           width: 15%;
        }
    }
 
@@ -69,20 +114,7 @@
        
    }
 
-    .book_2_2_2 {
-        width: 46%;
-    }
-    .book_2_2_3 {
-        width: 15.4%;
-    }
-
-    .book_2_2_4 {
-        width: 15%;
-    }
-
-    .book_2_2_5 {
-        width: 14.9%;
-    }
+  
 
    
   }
@@ -104,6 +136,8 @@
         }
     }
   }
+
+ 
 
   
 

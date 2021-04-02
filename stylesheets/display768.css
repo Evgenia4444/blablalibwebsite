@@ -11,6 +11,38 @@
   .book_row_part .name {
     font-size: 1rem;
   }
+  .book_row .row_2_1 img {
+    width: 13%;
+  }
+  .book_row .row_2_1 .book_2_1_4 {
+    width: 13%;
+  }
+  .book_row .row_2_1 .salvador {
+    width: 14.4%;
+  }
+  .book_row .row_2_1 .book_2_1_1 {
+    width: 20%;
+  }
+  .book_row .row_2_1 .easel {
+    width: 40%;
+  }
+  .book_row .row_2_1 .clock {
+    width: 80%;
+    top: -20px;
+    left: -57px;
+  }
+  .book_row .row_2_2 .book_2_2_2 {
+    width: 60%;
+  }
+  .book_row .row_2_2 .book_2_2_3 {
+    width: 25%;
+  }
+  .book_row .row_2_2 .book_2_2_4 {
+    width: 21%;
+  }
+  .book_row .row_2_2 .book_2_2_5 {
+    width: 21%;
+  }
   .book_row .row_1_1 {
     height: 320px;
     -webkit-box-pack: start;
@@ -45,30 +77,23 @@
   .book_row .row_4_1 {
     top: 1200px;
     height: 320px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .book_row .row_4_1 .lightbulbdiv {
     width: 50%;
+    top: 200px;
   }
   .book_row .row_4_1 .lightbulbdiv .lightbulb {
-    width: 20%;
+    width: 10%;
+    top: 1000px;
   }
   .book_row .row_4_1 .book_4_1_3 {
-    width: 38%;
+    width: 15%;
   }
   .book_row .row_4_3 {
     height: 320px;
-  }
-  .book_row .book_2_2_2 {
-    width: 46%;
-  }
-  .book_row .book_2_2_3 {
-    width: 15.4%;
-  }
-  .book_row .book_2_2_4 {
-    width: 15%;
-  }
-  .book_row .book_2_2_5 {
-    width: 14.9%;
   }
   .row_3_1 img {
     width: 15%;
