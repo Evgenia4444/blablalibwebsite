@@ -214,6 +214,62 @@
   }
 }
 
+@media screen and (max-width: 1280px) {
+  .bookshelf_container .row_4_3 .books {
+    margin-right: 0;
+  }
+  .bookshelf_container .row_5_3 .book_5_3_3 {
+    width: 30%;
+  }
+  .bookshelf_container .row_5_3 .flasksprite {
+    width: 100px;
+    margin-right: 1%;
+  }
+  .row_2_1 .salvador {
+    width: 17%;
+  }
+  .row_2_1 .easeldiv {
+    width: 440px;
+  }
+  .row_2_2 {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .row_2_2 .book_2_2_3 {
+    width: 25%;
+  }
+  .row_2_2 .book_2_2_2 {
+    width: 60%;
+  }
+  .row_2_2 .book_2_2_4 {
+    width: 24%;
+  }
+  .row_2_2 .book_2_2_5 {
+    width: 24%;
+  }
+  .row_3_3 {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .row_3_3 .julesverne {
+    width: 19%;
+  }
+  .row_3_3 .book_3_3_4 {
+    width: 25%;
+  }
+  .row_3_3 .book_3_3_1 {
+    width: 36%;
+  }
+  .row_3_3 .book_2_2_4 {
+    width: 24%;
+  }
+  .row_3_3 .book_2_2_5 {
+    width: 24%;
+  }
+}
+
 @media screen and (max-width: 1680px) {
   .row_4_3 {
     width: 50%;

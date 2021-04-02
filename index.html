@@ -222,7 +222,11 @@ $('body').css({
     }, 700);
 
 
-$('.flasksprite').addClass('flaskspriteimg')
+$('.flasksprite').addClass('flaskspriteimg');
+$('.flasksprite').hover(function() {
+    $('.flasksprite').css('filter','brightness(80%)')
+})
+
 
 });
 
