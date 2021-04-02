@@ -150,7 +150,7 @@ $(document).ready(function(){
            
             });
         });
-        
+
 $(document).ready(function(){
             $(".bat6").click(function(){
             if($(".bat6").attr('src')!='./images/batpurple6.png'){
@@ -192,7 +192,10 @@ $('.presubmarine').css({
 'animation': 'submarine 1s infinite ease',
 'animation-direction': 'alternate'
            });  
-           $('.julesverne').removeClass('brightness')
+           $('.julesverne').removeClass('brightness');
+           $([document.documentElement, document.body]).animate({
+        scrollTop: $(".row_4").offset().top
+    }, 700);
 });
 });
 
@@ -212,6 +215,11 @@ $('body').css({
 'cursor': 'url("images/cursormary.png"), auto ' 
 
 });
+
+$('.julesverne').removeClass('brightness');
+           $([document.documentElement, document.body]).animate({
+        scrollTop: $(".flasksprite").offset().top
+    }, 700);
 
 
 $('.flasksprite').addClass('flaskspriteimg')
@@ -381,7 +389,7 @@ console.log('Clockpath '+i+' is '+clock[i].length)
            <div class="radiy">
                <img src="images/close.png" alt="" class="close">
                <div class="radiy_text">
-                    <h1>Поздравляю!</h1>
+                    <h1>Поздравлем!</h1>
                     <h1>Вы открыли радий.</h1>
                     <p>Ra</p>
                </div>
