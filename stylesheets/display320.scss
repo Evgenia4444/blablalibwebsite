@@ -1,0 +1,383 @@
+@media screen and (max-width: 320px) {
+    
+    .bookshelf_container {
+        width: 100%;
+
+       
+       
+    .name {
+        max-width: 80%;
+        padding: 2rem 1rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        
+      }
+
+      .book_row {
+        flex-direction: column;
+        border: none;
+        height: 500px;
+        width: 100%;
+       
+        .mary {
+            top: 1688px;
+            left: 62px;
+        }
+     
+        .row_5_3 {
+            .radiy {
+                top: 1000px;
+                position: absolute;
+                left: 1px;
+            }
+            
+            .book_5_3_1 {
+                width: 16%;
+            }
+            .book_5_3_2 {
+                width: 16%;
+            }
+            .book_5_3_3 {
+                width: 16%;
+            }
+    
+        }
+        
+        .row_2_2 {
+            padding-left: 10px;
+            justify-content: flex-end;
+
+           
+            .book_2_2_1 {
+                top: 82px;
+                left: 12px;
+                width: 32%;
+            }
+            .book_2_2_3 {
+                width: 16%;
+            }
+            .book_2_2_4 {
+                width: 16.2%;
+            }
+
+            .book_2_2_5 {
+                width: 16%;
+            }
+          
+        }
+        
+
+        &_part {
+            width: 100%;
+            border-bottom: 20px solid #fff;
+            padding-bottom: 0;
+            
+           
+            justify-content: flex-end;
+            height: 570px;
+
+          
+
+           .img {
+               width: 16%;
+           }
+           
+            
+            .salvador {
+                width: 16%;
+            }
+           
+           
+
+         
+
+            .book_2_1_1 {
+                width: 22%;
+            }
+            .easel {
+                width: 75%;
+            }
+
+           .mondrianart {
+               width: 70%;
+            top: 29px;
+            left: 3.8%;
+           }
+           
+          
+            .julesverne {
+               width: 16%;
+            }
+
+            .book_3_3_1 {
+                width: 37%;
+            }
+
+            .book_3_3_4 {
+                width: 21.5%;
+            }
+
+            .book_4_1_1 {
+                width: 20.5%;
+                
+            }
+
+           
+            .edison {
+                width: 15%;
+               
+            }
+
+         
+          
+         
+
+            .book_5_1_1 {
+                width: 21.5%;
+            }
+
+            .book_5_1_4 {
+                width: 50%;
+            }
+
+            
+        }
+
+        .row_4_3 {
+            height: 500px;
+            
+        }
+        .row_1_2 {
+            align-items: flex-end;
+            justify-content: flex-end;
+            
+            
+           
+    
+                .candlessprite {
+                    background-image: url("../images/candlesspritemobile.png");
+                    overflow: hidden;
+                    width: 112px;
+                    height: 89px;
+                    background-size: 232px;
+                   }
+            
+                   .candlesbooks {
+                       height: 107px;
+                       width: 70%;
+                   }
+            
+        
+    
+        }
+        .row_2_1 {
+            .clock {
+                width: 100%;
+                height: 100px;
+                font-size: 3rem;
+                top: 30px;
+               
+              }
+        }
+
+        .row_3_1 {
+            margin-top: 3rem;
+    
+            .skull_books {
+                width: 90%;
+    
+                
+            }
+    
+            .skull {
+                top: 1108px;
+                left: 180px;
+            }
+        }
+        
+    .row_1_1 {
+
+        .book_1_1_1 {
+            width: 14%;
+        }
+        .book_1_1_2 {
+            width: 14%;
+        }
+        .book_1_1_3 {
+            width: 14%;
+        }
+        .book_1_1_4 {
+            width: 14%;
+        }
+        .book_1_1_5 {
+              width: 30%;
+          }
+          .ferenc {
+            width: 21%;
+         }
+
+        
+  }
+    
+    }
+
+    
+
+    .music {
+        width: 200px;
+        height: 240px;
+        top: 100px;
+        opacity: 1;
+        z-index: 1210;
+
+        .note1 {
+            width: 34px;
+            height: 70px;
+            left: 50%;
+            top: 36%;
+
+            img {
+                width: 70px;
+            }
+        }
+
+        .note2 {
+            width: 27px;
+            height: 89px;
+            left: 152px;
+            top: 18%;
+            img {
+                width: 56px;
+            }
+        }
+
+        .note3 {
+            width:  35px;
+            height: 70px;
+            top: 40%;
+            left: 77%;
+
+            img {
+                width: 70px;
+            }
+            
+        }
+
+    }
+
+    .row_4_3 {
+        height: 500px; 
+        justify-content: flex-end;  
+        
+        img {
+          
+          width: 80%;
+          
+      }
+
+      .presubmarine {
+          width: 50%;
+          left: 10%;
+          top: 30%;
+      }
+
+      .book_4_3_2 {
+          width: 17%;
+      }
+      .books {
+          height: 120px;
+          margin-right: 1%;
+      }
+  }
+
+    .row_4 {
+        height: 580px;
+    }
+    
+  
+    .row_5_1 {
+        height: 900px;
+    }
+
+    
+
+    .row_2_1 {
+        height: 700px;
+        margin-top: 2rem;
+    }
+    
+   
+
+    .row_2_2 {
+        height: 600px;
+    }
+   
+ 
+    .row_3_3 {
+        margin-top: 3rem;
+    }
+
+
+    .skullbooks {
+        top: 1240px;
+        height: 135px;
+
+
+        .skull {
+
+            top: 1750px;
+            left: 174px;
+            width: 35%;
+        }      
+    }
+  
+
+    .lightbulbdiv {
+        position: absolute;
+        height: 200px;
+        top: 2350px;
+        left: 10px;
+    }
+    .lightbulb {
+        height: 40%;
+        left: 100px;
+    }
+
+    //Mary
+    
+
+    
+
+   
+  
+
+    .flasksprite {
+        width: 79px;
+        height: 116px;
+        background-size: 160px;
+        margin-right: 4%;
+
+    }
+
+    
+  }
+  
+    
+   
+    .book_4_1_3 {
+        width: 36%;
+        position: absolute;
+        top: 2540x;
+        left: 128px;
+    }
+
+
+    .row_4_1 {
+        margin-top: 1rem;
+        height: 400px;  
+    
+  }
+
+
+    
+}

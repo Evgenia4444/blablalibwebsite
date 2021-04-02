@@ -4,108 +4,108 @@
     height: 120px;
     background-size: 164px;
   }
-  .book_row {
+  .bookshelf_container .book_row {
     margin-top: 1rem;
     margin-bottom: 1rem;
     height: 340px;
   }
-  .book_row_part {
+  .bookshelf_container .book_row .row_2_2 .book_2_2_2 {
+    width: 40%;
+  }
+  .bookshelf_container .book_row .row_2_2 .book_2_2_3 {
+    width: 16%;
+  }
+  .bookshelf_container .book_row .row_2_2 .book_2_2_4 {
+    width: 16%;
+  }
+  .bookshelf_container .book_row .row_2_2 .book_2_2_5 {
+    width: 16%;
+  }
+  .bookshelf_container .book_row_part {
     height: 320px;
     padding-bottom: 0;
   }
-  .book_row_part .name {
+  .bookshelf_container .book_row_part .name {
     font-size: 1rem;
   }
-  .book_row .row_2_1 img {
+  .bookshelf_container .book_row .row_2_1 img {
     width: 13%;
   }
-  .book_row .row_2_1 .book_2_1_4 {
+  .bookshelf_container .book_row .row_2_1 .book_2_1_4 {
     width: 13%;
   }
-  .book_row .row_2_1 .salvador {
+  .bookshelf_container .book_row .row_2_1 .salvador {
     width: 14.4%;
   }
-  .book_row .row_2_1 .book_2_1_1 {
+  .bookshelf_container .book_row .row_2_1 .book_2_1_1 {
     width: 20%;
   }
-  .book_row .row_2_1 .easel {
+  .bookshelf_container .book_row .row_2_1 .easel {
     width: 40%;
   }
-  .book_row .row_2_1 .clock {
+  .bookshelf_container .book_row .row_2_1 .clock {
     width: 80%;
     top: -20px;
     left: -57px;
   }
-  .book_row .row_2_2 .book_2_2_2 {
-    width: 60%;
-  }
-  .book_row .row_2_2 .book_2_2_3 {
-    width: 25%;
-  }
-  .book_row .row_2_2 .book_2_2_4 {
-    width: 21%;
-  }
-  .book_row .row_2_2 .book_2_2_5 {
-    width: 21%;
-  }
-  .book_row .row_1_1 {
+  .bookshelf_container .book_row .row_1_1 {
     height: 320px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .book_row .row_1_1 .book_1_1_5 {
+  .bookshelf_container .book_row .row_1_1 .book_1_1_5 {
     width: 32%;
   }
-  .book_row .row_1_1 img {
+  .bookshelf_container .book_row .row_1_1 img {
     width: 14.5%;
   }
-  .book_row .row_1_1 .ferenc {
+  .bookshelf_container .book_row .row_1_1 .ferenc {
     width: 21.9%;
   }
-  .book_row .row_1_2 {
+  .bookshelf_container .row_1_2 {
     height: 320px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
-  .book_row .row_1_2 .candlessprite {
+  .bookshelf_container .row_1_2 .candlessprite {
     justify-self: flex-end;
     height: 42%;
     width: 50%;
     background-size: 300px;
   }
-  .book_row .row_1_2 .candlesbooks {
+  .bookshelf_container .row_1_2 .candlesbooks {
     height: 119px;
     width: 86.1%;
   }
-  .book_row .row_4_1 {
+  .bookshelf_container .row_4_1 {
     top: 1200px;
-    height: 320px;
+    height: 1000px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .book_row .row_4_1 .lightbulbdiv {
+  .bookshelf_container .row_4_1 .lightbulbdiv {
     width: 50%;
     top: 200px;
   }
-  .book_row .row_4_1 .lightbulbdiv .lightbulb {
+  .bookshelf_container .row_4_1 .lightbulbdiv .lightbulb {
     width: 10%;
     top: 1000px;
   }
-  .book_row .row_4_1 .book_4_1_3 {
+  .bookshelf_container .row_4_1 .book_4_1_3 {
     width: 15%;
     left: 153px;
   }
-  .book_row .row_4_1 .mary {
+  .bookshelf_container .row_4_1 .mary {
     top: 1220px;
     left: 210px;
   }
-  .book_row .row_4_3 {
+  .bookshelf_container .row_4_3 {
     height: 320px;
   }
-  .book_row .row_5_3 .flasksprite {
+  .bookshelf_container .row_5_3 .flasksprite {
     width: 72px;
     height: 120px;
     background-size: 160px;
