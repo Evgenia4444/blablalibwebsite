@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) {
+  .bookshelf_container .radiy {
+    top: 1490px;
+  }
   .bookshelf_container .name {
     max-width: 80%;
   }
@@ -92,9 +95,6 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-  }
-  .bookshelf_container .row_4_1 .radiy {
-    top: 2300px;
   }
   .bookshelf_container .row_4_1 .lightbulbdiv {
     width: 50%;

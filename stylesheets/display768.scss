@@ -2,7 +2,9 @@
    
     .bookshelf_container {
     
-      
+        .radiy {
+            top: 1490px;
+        }
         .name {
             max-width: 80%;
         }
@@ -115,9 +117,7 @@
            height: 320px;
            justify-content: flex-start;
 
-           .radiy {
-               top: 2300px;
-           }
+           
     
         .lightbulbdiv {
              width: 50%;
