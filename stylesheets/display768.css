@@ -1,4 +1,9 @@
 @media screen and (max-width: 768px) {
+  .bookshelf_container .flasksprite {
+    width: 76px;
+    height: 120px;
+    background-size: 164px;
+  }
   .book_row {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -99,6 +104,11 @@
   }
   .book_row .row_4_3 {
     height: 320px;
+  }
+  .book_row .row_5_3 .flasksprite {
+    width: 72px;
+    height: 120px;
+    background-size: 160px;
   }
   .row_3_1 img {
     width: 15%;
