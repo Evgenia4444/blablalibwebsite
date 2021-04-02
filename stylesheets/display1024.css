@@ -7,7 +7,7 @@
     height: 480px;
   }
   .bookshelf_container .row_4_3 .books {
-    margin-right: 20%;
+    margin-right: 10%;
     width: 60%;
   }
   .bookshelf_container .row_4_3 .presubmarine {
@@ -42,6 +42,9 @@
         -ms-flex-pack: end;
             justify-content: flex-end;
   }
+  .bookshelf_container .row_2_2 .mondrian {
+    width: 21%;
+  }
   .bookshelf_container .row_3_3 {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
@@ -69,10 +72,10 @@
     width: 75%;
   }
   .bookshelf_container .book_2_1_1 {
-    width: 22%;
+    width: 20.5%;
   }
   .bookshelf_container .easeldiv .easel {
-    width: 75%;
+    width: 50%;
   }
   .bookshelf_container .easeldiv .clock {
     width: 120%;
@@ -215,79 +218,6 @@
     left: 240px;
     z-index: 300;
     width: 10%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 1280px) {
-  .bookshelf_container .row_4_3 .books {
-    margin-right: 0;
-  }
-  .bookshelf_container .row_5_3 .book_5_3_3 {
-    width: 30%;
-  }
-  .bookshelf_container .row_5_3 .flasksprite {
-    width: 100px;
-  }
-  .row_2_1 .salvador {
-    width: 17%;
-  }
-  .row_2_1 .easeldiv {
-    width: 440px;
-  }
-  .row_2_2 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .row_2_2 .book_2_2_3 {
-    width: 25%;
-  }
-  .row_2_2 .book_2_2_2 {
-    width: 60%;
-  }
-  .row_2_2 .book_2_2_4 {
-    width: 24%;
-  }
-  .row_2_2 .book_2_2_5 {
-    width: 24%;
-  }
-  .row_3_3 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .row_3_3 .julesverne {
-    width: 19%;
-  }
-  .row_3_3 .book_3_3_4 {
-    width: 25%;
-  }
-  .row_3_3 .book_3_3_1 {
-    width: 36%;
-  }
-  .row_3_3 .book_2_2_4 {
-    width: 24%;
-  }
-  .row_3_3 .book_2_2_5 {
-    width: 24%;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 1366px) {
-  .flasksprite {
-    width: 180.5px;
-  }
-}
-
-@media screen and (max-width: 1024px) and (max-width: 1680px) {
-  .row_4_3 {
-    width: 50%;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-  }
-  .row_4_3 .books {
-    margin-right: 14%;
   }
 }
 /*# sourceMappingURL=display1024.css.map */
