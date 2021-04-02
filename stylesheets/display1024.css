@@ -269,6 +269,12 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .flasksprite {
+    width: 180.5px;
+  }
+}
+
 @media screen and (max-width: 1680px) {
   .row_4_3 {
     width: 50%;

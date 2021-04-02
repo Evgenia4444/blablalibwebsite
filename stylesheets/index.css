@@ -542,11 +542,11 @@ body {
 
 .flasksprite {
   overflow: hidden;
-  width: 170px;
+  width: 178.3px;
   height: 271px;
   background-image: url("../images/flasksprite2.png");
-  -webkit-transition: background-image 0.03s;
-  transition: background-image 0.03s;
+  -webkit-transition: all 0.03s;
+  transition: all 0.03s;
 }
 
 .flaskspriteimg {
