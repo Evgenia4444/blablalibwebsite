@@ -34,9 +34,11 @@
     margin-right: 4%;
   }
   .bookshelf_container .book_row .row_5_3 .radiy {
-    top: 1000px;
+    top: 2400px;
     position: absolute;
-    left: 1px;
+    text-align: center;
+    padding: 0.2rem 0.5rem;
+    left: 12px;
   }
   .bookshelf_container .book_row .row_5_3 .book_5_3_1 {
     width: 16%;
