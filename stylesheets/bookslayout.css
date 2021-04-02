@@ -13,7 +13,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 266px;
+  height: 400px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -23,6 +23,7 @@
   position: absolute;
   top: 1256px;
   left: 360px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 320px) {
